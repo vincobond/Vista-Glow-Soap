@@ -1,0 +1,42 @@
+# VistaGlow - Premium Organic Skincare Brand
+
+## Project Overview
+VistaGlow is a luxury, ethical skincare brand specializing in handcrafted, organic soaps. Our mission is to "Redefine beauty by creating skincare that reminds you: beauty begins with belief." We combine high-quality natural ingredients with a philosophy of self-care and confidence.
+
+## Core Products
+We offer four signature soap lines, each designed for a specific purpose and skin need:
+
+1.  **Power**
+    -   **Focus:** Strength and Vitality.
+    -   **Description:** Energizing formulas that invigorate your skin and spirit.
+    -   **Key Benefit:** Revitalizing.
+
+2.  **Confidence**
+    -   **Focus:** Self-Assurance.
+    -   **Description:** Gentle care that nurtures your unique beauty.
+    -   **Key Benefit:** Nurturing.
+
+3.  **Glow**
+    -   **Focus:** Radiance.
+    -   **Description:** Natural ingredients that bring out your inner light for luminous skin.
+    -   **Key Benefit:** Brightening.
+
+4.  **Essence**
+    -   **Focus:** Authenticity.
+    -   **Description:** Pure, essential basics for timeless, effective care.
+    -   **Key Benefit:** Purifying.
+
+## Brand Values
+-   **Clean Skincare:** 100% organic, no harsh chemicals or artificial additives.
+-   **Empowerment:** Building confidence through authentic self-care.
+-   **Sustainability:** Eco-friendly practices and responsibly sourced ingredients.
+-   **Inclusivity:** Unisex products designed for all skin types and identities.
+
+## Key Features
+-   **Handcrafted Quality:** Small-batch production ensures excellence.
+-   **Ethical Sourcing:** We prioritize the planet and our partners.
+-   **Community Focused:** Join our "Elite Partner" affiliate program to earn while inspiring others.
+
+## Technical Details
+-   **Platform:** Modern web application (MERN Stack + Convex).
+-   **User Experience:** Fast, responsive, and secure shopping experience.
