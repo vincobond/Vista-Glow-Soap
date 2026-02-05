@@ -1,8 +1,10 @@
-const CACHE_NAME = 'vistaglow-v1';
+const CACHE_NAME = 'vistaglow-v2';
 const urlsToCache = [
     '/',
     '/index.html',
-    '/manifest.json'
+    '/manifest.json',
+    '/icon-192.png',
+    '/icon-512.png'
 ];
 
 // Install event - cache essential files
@@ -17,16 +19,13 @@ self.addEventListener('install', (event) => {
     self.skipWaiting();
 });
 
-// Fetch event - serve cached content when offline
+// Fetch event - Network First for HTML/Navigation, Cache First for others (optional)
+// For simplicity and safety against the MIME error, we'll use Network First for everything in this update.
 self.addEventListener('fetch', (event) => {
     event.respondWith(
-        caches.match(event.request)
-            .then((response) => {
-                // Cache hit - return response
-                if (response) {
-                    return response;
-                }
-                return fetch(event.request);
+        fetch(event.request)
+            .catch(() => {
+                return caches.match(event.request);
             })
     );
 });
@@ -47,3 +46,4 @@ self.addEventListener('activate', (event) => {
     );
     self.clients.claim();
 });
+
